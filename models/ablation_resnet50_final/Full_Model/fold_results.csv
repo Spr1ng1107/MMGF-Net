@@ -1,0 +1,6 @@
+config,fold,accuracy,macro_precision,macro_recall,macro_f1,macro_auc,test_loss
+Full_Model,1,0.9866,0.988,0.9868,0.9869,0.9998,
+Full_Model,2,0.9911,0.9923,0.9923,0.9923,0.9998,
+Full_Model,3,0.9777,0.9737,0.9819,0.977,0.9998,
+Full_Model,4,0.9777,0.9734,0.9704,0.9703,0.9998,
+Full_Model,5,0.9686,0.9601,0.965,0.9611,0.9998,

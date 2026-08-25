@@ -1,0 +1,10 @@
+InceptionV3 Image-Only 5-Fold CV Performance Report
+==================================================
+Training strategy: Identical to MobileNetV2 baseline
+5-Fold Stratified CV, Train/Val/Test split, 2-phase training
+--------------------------------------------------
+Accuracy: 93.38% +/- 2.11%
+Macro Precision: 94.21% +/- 2.16%
+Macro Recall: 93.64% +/- 2.19%
+Macro F1: 93.70% +/- 2.18%
+Macro AUC: 99.62% +/- 0.21%

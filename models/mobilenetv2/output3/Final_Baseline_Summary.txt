@@ -1,0 +1,7 @@
+Baseline Image-Only 5-Fold CV Performance Report
+==================================================
+Accuracy: 94.10% +/- 3.01%
+Macro Precision: 93.63% +/- 2.91%
+Macro Recall: 93.66% +/- 2.46%
+Macro F1: 93.25% +/- 2.84%
+Macro AUC: 99.76% +/- 0.20%

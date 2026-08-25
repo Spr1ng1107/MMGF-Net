@@ -1,0 +1,31 @@
+=== CCNNet — 独立测试集（5折软投票集成） ===
+测试集规模: 138 张 | 类别数: 14
+
+--- 每折测试指标 ---
+  Fold 1: Acc=16.67%  MacroP=1.19%  MacroR=7.14%  MacroF1=2.04%  MacroAUC=58.05%
+  Fold 2: Acc=16.67%  MacroP=1.19%  MacroR=7.14%  MacroF1=2.04%  MacroAUC=50.04%
+  Fold 3: Acc=16.67%  MacroP=1.19%  MacroR=7.14%  MacroF1=2.04%  MacroAUC=51.80%
+  Fold 4: Acc=16.67%  MacroP=1.19%  MacroR=7.14%  MacroF1=2.04%  MacroAUC=60.28%
+  Fold 5: Acc=16.67%  MacroP=1.19%  MacroR=7.14%  MacroF1=2.04%  MacroAUC=53.74%
+
+  每折均值: Acc=16.67%  MacroP=1.19%  MacroR=7.14%  MacroF1=2.04%  MacroAUC=54.78%
+  每折标准差: Acc=0.00%  MacroF1=0.00%
+  软投票集成: Acc=16.67%  MacroP=1.19%  MacroR=7.14%  MacroF1=2.04%  MacroAUC=56.45%
+
+--- 集成模型逐类别 F1 ---
+  类别 0: 0.0000
+  类别 1: 0.0000
+  类别 2: 0.0000
+  类别 3: 0.0000
+  类别 4: 0.0000
+  类别 5: 0.0000
+  类别 6: 0.0000
+  类别 7: 0.2857
+  类别 8: 0.0000
+  类别 9: 0.0000
+  类别 10: 0.0000
+  类别 11: 0.0000
+  类别 12: 0.0000
+  类别 13: 0.0000
+
+模型目录: /mnt/data1/spring/multimodal_project/otherModels/model_predictions/CCNNet

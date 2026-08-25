@@ -1,0 +1,10 @@
+MobileNetV3Large Image-Only 5-Fold CV Performance Report
+==================================================
+Training strategy: Identical to MobileNetV2 baseline
+5-Fold Stratified CV, Train/Val/Test split, 2-phase training
+--------------------------------------------------
+Accuracy: 94.02% +/- 1.01%
+Macro Precision: 93.64% +/- 0.94%
+Macro Recall: 93.22% +/- 0.82%
+Macro F1: 93.15% +/- 0.84%
+Macro AUC: 99.60% +/- 0.37%

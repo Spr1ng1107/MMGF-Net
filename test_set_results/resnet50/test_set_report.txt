@@ -1,0 +1,31 @@
+=== ResNet50 — 独立测试集（5折软投票集成） ===
+测试集规模: 138 张 | 类别数: 14
+
+--- 每折测试指标 ---
+  Fold 1: Acc=91.30%  MacroP=93.19%  MacroR=87.57%  MacroF1=88.92%  MacroAUC=99.80%
+  Fold 2: Acc=89.13%  MacroP=89.41%  MacroR=87.98%  MacroF1=88.06%  MacroAUC=99.47%
+  Fold 3: Acc=92.75%  MacroP=92.58%  MacroR=90.45%  MacroF1=90.93%  MacroAUC=99.11%
+  Fold 4: Acc=92.75%  MacroP=92.62%  MacroR=89.91%  MacroF1=90.41%  MacroAUC=99.07%
+  Fold 5: Acc=89.86%  MacroP=91.12%  MacroR=89.02%  MacroF1=89.46%  MacroAUC=99.36%
+
+  每折均值: Acc=91.16%  MacroP=91.78%  MacroR=88.99%  MacroF1=89.56%  MacroAUC=99.36%
+  每折标准差: Acc=1.48%  MacroF1=1.03%
+  软投票集成: Acc=92.75%  MacroP=93.07%  MacroR=89.94%  MacroF1=90.83%  MacroAUC=99.91%
+
+--- 集成模型逐类别 F1 ---
+  类别 0: 0.7273
+  类别 1: 0.8000
+  类别 2: 0.9231
+  类别 3: 0.8889
+  类别 4: 1.0000
+  类别 5: 1.0000
+  类别 6: 0.9231
+  类别 7: 0.9388
+  类别 8: 0.9000
+  类别 9: 0.8333
+  类别 10: 0.9677
+  类别 11: 0.8571
+  类别 12: 1.0000
+  类别 13: 0.9565
+
+模型目录: /mnt/data1/spring/multimodal_project/otherModels/train_resnet50/output_resnet50

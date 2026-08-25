@@ -1,0 +1,10 @@
+ResNet50 Image-Only 5-Fold CV Performance Report
+==================================================
+Training strategy: Identical to MobileNetV2 baseline
+5-Fold Stratified CV, Train/Val/Test split, 2-phase training
+--------------------------------------------------
+Accuracy: 96.60% +/- 1.26%
+Macro Precision: 95.86% +/- 1.41%
+Macro Recall: 95.66% +/- 1.08%
+Macro F1: 95.47% +/- 1.31%
+Macro AUC: 99.73% +/- 0.30%

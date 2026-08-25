@@ -1,0 +1,15 @@
+﻿model_key,model,family,n_folds_used,test_fold_acc_mean,test_fold_acc_std,test_fold_f1_mean,test_fold_f1_std,test_fold_auc_mean,test_ensemble_acc,test_ensemble_macroP,test_ensemble_macroR,test_ensemble_macroF1,test_ensemble_auc
+resnet50,ResNet50,image_only,5,91.16,1.48,89.56,1.03,99.36,92.75,93.07,89.94,90.83,99.91
+mobilenetv2,MobileNetV2,image_only,5,90.58,0.65,89.53,1.16,99.4,92.75,93.92,92.68,92.91,99.65
+mobilenetv3large,MobileNetV3Large,image_only,5,90.43,1.55,90.38,1.76,99.56,92.75,93.83,92.88,92.96,99.78
+inceptionv3,InceptionV3,image_only,5,87.97,1.56,85.63,1.38,99.35,91.3,92.37,89.45,89.57,99.68
+vgg16,VGG16,image_only,5,86.96,1.21,84.03,1.66,98.57,89.86,89.51,87.79,87.83,99.25
+mmgf_resnet50,MMGF-Net (ResNet50),multimodal,5,94.93,0.79,94.17,1.15,99.66,97.1,97.21,96.97,96.98,99.91
+mmgf_mobilenetv2,MMGF-Net (MobileNetV2),multimodal,5,93.91,1.18,93.28,1.77,99.62,95.65,95.75,95.63,95.5,99.87
+mmgf_mobilenetv3large,MMGF-Net (MobileNetV3Large),multimodal,5,94.06,1.91,92.66,1.87,99.8,97.83,96.64,97.27,96.68,99.98
+mmgf_inceptionv3,MMGF-Net (InceptionV3),multimodal,5,93.62,1.25,91.49,1.88,99.29,94.93,94.91,92.49,92.71,99.81
+mmgf_vgg16,MMGF-Net (VGG16),multimodal,5,94.64,1.49,92.78,3.03,99.52,97.83,97.41,97.14,97.15,99.92
+improved_resnet50,改进ResNet50[19],image_only,5,89.42,5.1,88.08,5.54,99.2,94.93,95.77,94.11,94.76,99.85
+ccnnet,CCNNet,image_only,5,16.67,0.0,2.04,0.0,54.78,16.67,1.19,7.14,2.04,56.45
+sfeca,SFE-CA,image_only,5,88.26,1.48,85.07,1.08,99.4,92.75,92.44,89.15,88.91,99.7
+convnext,ConvNeXt,image_only,5,87.83,2.31,83.62,3.51,99.1,90.58,90.52,86.07,86.09,99.69

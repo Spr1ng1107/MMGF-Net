@@ -1,0 +1,31 @@
+=== MMGF-Net (VGG16) — 独立测试集（5折软投票集成） ===
+测试集规模: 138 张 | 类别数: 14
+
+--- 每折测试指标 ---
+  Fold 1: Acc=97.10%  MacroP=96.30%  MacroR=95.73%  MacroF1=95.57%  MacroAUC=99.88%
+  Fold 2: Acc=94.93%  MacroP=95.91%  MacroR=95.08%  MacroF1=95.14%  MacroAUC=99.93%
+  Fold 3: Acc=93.48%  MacroP=93.59%  MacroR=90.91%  MacroF1=91.33%  MacroAUC=99.90%
+  Fold 4: Acc=92.75%  MacroP=89.49%  MacroR=88.20%  MacroF1=87.50%  MacroAUC=98.04%
+  Fold 5: Acc=94.93%  MacroP=95.72%  MacroR=93.74%  MacroF1=94.35%  MacroAUC=99.85%
+
+  每折均值: Acc=94.64%  MacroP=94.20%  MacroR=92.73%  MacroF1=92.78%  MacroAUC=99.52%
+  每折标准差: Acc=1.49%  MacroF1=3.03%
+  软投票集成: Acc=97.83%  MacroP=97.41%  MacroR=97.14%  MacroF1=97.15%  MacroAUC=99.92%
+
+--- 集成模型逐类别 F1 ---
+  类别 0: 0.9091
+  类别 1: 1.0000
+  类别 2: 0.8571
+  类别 3: 1.0000
+  类别 4: 1.0000
+  类别 5: 1.0000
+  类别 6: 0.9231
+  类别 7: 1.0000
+  类别 8: 0.9524
+  类别 9: 0.9600
+  类别 10: 1.0000
+  类别 11: 1.0000
+  类别 12: 1.0000
+  类别 13: 1.0000
+
+模型目录: /mnt/data1/spring/multimodal_project/otherModels/train_vgg16_multimodal/output_vgg16_multimodal

@@ -1,0 +1,31 @@
+=== MMGF-Net (ResNet50) — 独立测试集（5折软投票集成） ===
+测试集规模: 138 张 | 类别数: 14
+
+--- 每折测试指标 ---
+  Fold 1: Acc=95.65%  MacroP=96.57%  MacroR=95.13%  MacroF1=95.49%  MacroAUC=99.90%
+  Fold 2: Acc=94.93%  MacroP=94.11%  MacroR=94.16%  MacroF1=93.86%  MacroAUC=99.92%
+  Fold 3: Acc=94.93%  MacroP=94.48%  MacroR=93.87%  MacroF1=93.85%  MacroAUC=99.85%
+  Fold 4: Acc=95.65%  MacroP=96.42%  MacroR=94.95%  MacroF1=95.30%  MacroAUC=98.93%
+  Fold 5: Acc=93.48%  MacroP=93.59%  MacroR=92.18%  MacroF1=92.34%  MacroAUC=99.70%
+
+  每折均值: Acc=94.93%  MacroP=95.03%  MacroR=94.06%  MacroF1=94.17%  MacroAUC=99.66%
+  每折标准差: Acc=0.79%  MacroF1=1.15%
+  软投票集成: Acc=97.10%  MacroP=97.21%  MacroR=96.97%  MacroF1=96.98%  MacroAUC=99.91%
+
+--- 集成模型逐类别 F1 ---
+  类别 0: 0.9091
+  类别 1: 1.0000
+  类别 2: 0.9333
+  类别 3: 1.0000
+  类别 4: 1.0000
+  类别 5: 1.0000
+  类别 6: 1.0000
+  类别 7: 1.0000
+  类别 8: 0.9091
+  类别 9: 0.8696
+  类别 10: 1.0000
+  类别 11: 1.0000
+  类别 12: 1.0000
+  类别 13: 0.9565
+
+模型目录: /mnt/data1/spring/multimodal_project/otherModels/train_resnet50_multimodal/output_resnet50_multimodal

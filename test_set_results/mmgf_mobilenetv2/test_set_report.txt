@@ -1,0 +1,31 @@
+=== MMGF-Net (MobileNetV2) — 独立测试集（5折软投票集成） ===
+测试集规模: 138 张 | 类别数: 14
+
+--- 每折测试指标 ---
+  Fold 1: Acc=95.65%  MacroP=96.06%  MacroR=95.77%  MacroF1=95.74%  MacroAUC=99.61%
+  Fold 2: Acc=93.48%  MacroP=93.12%  MacroR=91.21%  MacroF1=91.10%  MacroAUC=99.17%
+  Fold 3: Acc=94.20%  MacroP=95.60%  MacroR=94.30%  MacroF1=94.75%  MacroAUC=99.76%
+  Fold 4: Acc=94.20%  MacroP=93.76%  MacroR=93.59%  MacroF1=93.17%  MacroAUC=99.78%
+  Fold 5: Acc=92.03%  MacroP=92.01%  MacroR=92.39%  MacroF1=91.63%  MacroAUC=99.80%
+
+  每折均值: Acc=93.91%  MacroP=94.11%  MacroR=93.45%  MacroF1=93.28%  MacroAUC=99.62%
+  每折标准差: Acc=1.18%  MacroF1=1.77%
+  软投票集成: Acc=95.65%  MacroP=95.75%  MacroR=95.63%  MacroF1=95.50%  MacroAUC=99.87%
+
+--- 集成模型逐类别 F1 ---
+  类别 0: 0.9091
+  类别 1: 1.0000
+  类别 2: 0.9333
+  类别 3: 1.0000
+  类别 4: 1.0000
+  类别 5: 0.9677
+  类别 6: 0.9231
+  类别 7: 1.0000
+  类别 8: 0.9091
+  类别 9: 0.8696
+  类别 10: 0.9677
+  类别 11: 0.9333
+  类别 12: 1.0000
+  类别 13: 0.9565
+
+模型目录: /mnt/data1/spring/multimodal_project/MNV2_multiSlices/MNV2_multiSlices_papermix/output3

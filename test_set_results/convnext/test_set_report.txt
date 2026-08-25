@@ -1,0 +1,31 @@
+=== ConvNeXt — 独立测试集（5折软投票集成） ===
+测试集规模: 138 张 | 类别数: 14
+
+--- 每折测试指标 ---
+  Fold 1: Acc=86.96%  MacroP=86.77%  MacroR=81.42%  MacroF1=81.68%  MacroAUC=98.98%
+  Fold 2: Acc=92.03%  MacroP=92.06%  MacroR=89.36%  MacroF1=90.02%  MacroAUC=99.45%
+  Fold 3: Acc=85.51%  MacroP=86.27%  MacroR=81.10%  MacroF1=81.10%  MacroAUC=98.99%
+  Fold 4: Acc=86.23%  MacroP=86.83%  MacroR=80.61%  MacroF1=80.56%  MacroAUC=99.27%
+  Fold 5: Acc=88.41%  MacroP=90.00%  MacroR=84.92%  MacroF1=84.73%  MacroAUC=98.83%
+
+  每折均值: Acc=87.83%  MacroP=88.39%  MacroR=83.48%  MacroF1=83.62%  MacroAUC=99.10%
+  每折标准差: Acc=2.31%  MacroF1=3.51%
+  软投票集成: Acc=90.58%  MacroP=90.52%  MacroR=86.07%  MacroF1=86.09%  MacroAUC=99.69%
+
+--- 集成模型逐类别 F1 ---
+  类别 0: 0.6000
+  类别 1: 0.5000
+  类别 2: 0.8333
+  类别 3: 0.8000
+  类别 4: 1.0000
+  类别 5: 1.0000
+  类别 6: 1.0000
+  类别 7: 0.9778
+  类别 8: 0.7826
+  类别 9: 0.8276
+  类别 10: 1.0000
+  类别 11: 0.8889
+  类别 12: 1.0000
+  类别 13: 0.8421
+
+模型目录: /mnt/data1/spring/multimodal_project/otherModels/model_predictions/ConvNeXt

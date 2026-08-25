@@ -1,0 +1,31 @@
+=== SFE-CA — 独立测试集（5折软投票集成） ===
+测试集规模: 138 张 | 类别数: 14
+
+--- 每折测试指标 ---
+  Fold 1: Acc=89.13%  MacroP=90.06%  MacroR=85.17%  MacroF1=85.49%  MacroAUC=99.56%
+  Fold 2: Acc=85.51%  MacroP=87.50%  MacroR=82.54%  MacroF1=83.14%  MacroAUC=99.36%
+  Fold 3: Acc=89.86%  MacroP=90.77%  MacroR=86.52%  MacroF1=86.38%  MacroAUC=99.42%
+  Fold 4: Acc=88.41%  MacroP=89.52%  MacroR=84.76%  MacroF1=85.52%  MacroAUC=99.24%
+  Fold 5: Acc=88.41%  MacroP=87.35%  MacroR=84.12%  MacroF1=84.82%  MacroAUC=99.43%
+
+  每折均值: Acc=88.26%  MacroP=89.04%  MacroR=84.62%  MacroF1=85.07%  MacroAUC=99.40%
+  每折标准差: Acc=1.48%  MacroF1=1.08%
+  软投票集成: Acc=92.75%  MacroP=92.44%  MacroR=89.15%  MacroF1=88.91%  MacroAUC=99.70%
+
+--- 集成模型逐类别 F1 ---
+  类别 0: 0.5000
+  类别 1: 0.8571
+  类别 2: 0.9231
+  类别 3: 0.8571
+  类别 4: 0.8889
+  类别 5: 0.9697
+  类别 6: 0.8000
+  类别 7: 0.9778
+  类别 8: 0.9091
+  类别 9: 0.8889
+  类别 10: 1.0000
+  类别 11: 0.8750
+  类别 12: 1.0000
+  类别 13: 1.0000
+
+模型目录: /mnt/data1/spring/multimodal_project/otherModels/model_predictions/SFE-CA

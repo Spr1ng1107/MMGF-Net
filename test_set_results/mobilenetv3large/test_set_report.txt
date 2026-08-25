@@ -1,0 +1,31 @@
+=== MobileNetV3Large — 独立测试集（5折软投票集成） ===
+测试集规模: 138 张 | 类别数: 14
+
+--- 每折测试指标 ---
+  Fold 1: Acc=89.13%  MacroP=90.94%  MacroR=87.41%  MacroF1=87.31%  MacroAUC=99.41%
+  Fold 2: Acc=89.86%  MacroP=92.22%  MacroR=91.30%  MacroF1=91.25%  MacroAUC=99.45%
+  Fold 3: Acc=89.86%  MacroP=92.34%  MacroR=89.94%  MacroF1=90.52%  MacroAUC=99.60%
+  Fold 4: Acc=93.48%  MacroP=93.42%  MacroR=92.53%  MacroF1=92.66%  MacroAUC=99.64%
+  Fold 5: Acc=89.86%  MacroP=91.36%  MacroR=89.88%  MacroF1=90.14%  MacroAUC=99.71%
+
+  每折均值: Acc=90.43%  MacroP=92.06%  MacroR=90.21%  MacroF1=90.38%  MacroAUC=99.56%
+  每折标准差: Acc=1.55%  MacroF1=1.76%
+  软投票集成: Acc=92.75%  MacroP=93.83%  MacroR=92.88%  MacroF1=92.96%  MacroAUC=99.78%
+
+--- 集成模型逐类别 F1 ---
+  类别 0: 0.8000
+  类别 1: 1.0000
+  类别 2: 0.9333
+  类别 3: 1.0000
+  类别 4: 1.0000
+  类别 5: 0.9677
+  类别 6: 0.9231
+  类别 7: 0.9565
+  类别 8: 0.7500
+  类别 9: 0.7826
+  类别 10: 0.9677
+  类别 11: 0.9333
+  类别 12: 1.0000
+  类别 13: 1.0000
+
+模型目录: /mnt/data1/spring/multimodal_project/otherModels/train_mobilenetv3/output_mobilenetv3

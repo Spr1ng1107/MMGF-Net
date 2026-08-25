@@ -1,0 +1,10 @@
+VGG16 Image-Only 5-Fold CV Performance Report
+==================================================
+Training strategy: Identical to MobileNetV2 baseline
+5-Fold Stratified CV, Train/Val/Test split, 2-phase training
+--------------------------------------------------
+Accuracy: 92.67% +/- 1.38%
+Macro Precision: 91.97% +/- 1.93%
+Macro Recall: 90.81% +/- 2.48%
+Macro F1: 90.67% +/- 2.41%
+Macro AUC: 99.29% +/- 0.45%

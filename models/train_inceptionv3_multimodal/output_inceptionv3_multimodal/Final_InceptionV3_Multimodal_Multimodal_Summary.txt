@@ -1,0 +1,11 @@
+InceptionV3_Multimodal Multimodal 5-Fold CV Performance Report
+============================================================
+Training strategy: IDENTICAL to MobileNetV2 multimodal (MNV2_text.py)
+5-Fold Stratified CV | Single-phase joint training
+Gated multimodal fusion | Class-balanced weights
+------------------------------------------------------------
+Accuracy: 96.07% +/- 1.64%
+Macro Precision: 96.10% +/- 2.09%
+Macro Recall: 95.82% +/- 1.87%
+Macro F1: 95.77% +/- 2.04%
+Macro AUC: 99.68% +/- 0.31%

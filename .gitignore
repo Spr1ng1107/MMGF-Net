@@ -1,0 +1,74 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+multimodal_env*/
+
+# ---- 模型权重 / 检查点（不随仓库上传）----
+*.h5
+*.hdf5
+*.keras
+*.pt
+*.pth
+*.pb
+saved_model/
+checkpoint/
+checkpoints/
+best_model/
+fold_*/
+!**/fold_*/
+**/fold_*/**
+!**/fold_*/classification_report*.txt
+output_*/
+output3/
+
+# ---- 论文数值证据：仅纳入小结果文件，忽略权重/曲线图 ----
+# model_predictions/（论文表 2 文献复现基线数据源）
+model_predictions/
+!model_predictions/
+model_predictions/*
+!model_predictions/*/
+model_predictions/*/*
+!model_predictions/all_models_summary.csv
+!model_predictions/*/Final_*_Summary.txt
+!model_predictions/*/*_confusion.png
+!model_predictions/*/*_all_report.txt
+!model_predictions/*/*_all_predictions.csv
+# ablation_resnet50_final/（论文表 8 消融数据源，14 配置）
+ablation_resnet50_final/
+!ablation_resnet50_final/
+ablation_resnet50_final/*
+!ablation_resnet50_final/*/
+ablation_resnet50_final/*/*
+!ablation_resnet50_final/ablation_summary_ResNet50.csv
+!ablation_resnet50_final/*/fold_results.csv
+!ablation_resnet50_final/*/training_curves_fold*.png
+!ablation_resnet50_final/*/Final_*Summary.txt
+# output_*/（表 3 / 表 4 骨干 CV 摘要；fold_*/ 与曲线图仍忽略）
+!output_*/
+output_*/*
+!output_*/Final_*_Summary.txt
+# output3/（MobileNetV2 图像/多模态 CV 摘要）
+!output3/
+output3/*
+!output3/Final_*_Summary.txt
+
+# ---- 数据图像（不随仓库上传）----
+data/images/
+data/data1/
+*.jpg
+*.jpeg
+*.JPG
+*.bmp
+*.png.bak
+
+# ---- 日志 ----
+*.log
+nohup.out
+
+# ---- OS ----
+.DS_Store
+Thumbs.db
+desktop.ini

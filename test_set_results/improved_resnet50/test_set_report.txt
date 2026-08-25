@@ -1,0 +1,31 @@
+=== 改进ResNet50 — 独立测试集（5折软投票集成） ===
+测试集规模: 138 张 | 类别数: 14
+
+--- 每折测试指标 ---
+  Fold 1: Acc=94.20%  MacroP=93.11%  MacroR=91.88%  MacroF1=92.08%  MacroAUC=99.42%
+  Fold 2: Acc=90.58%  MacroP=91.59%  MacroR=89.15%  MacroF1=89.83%  MacroAUC=99.81%
+  Fold 3: Acc=92.75%  MacroP=94.93%  MacroR=92.46%  MacroF1=93.24%  MacroAUC=99.35%
+  Fold 4: Acc=89.86%  MacroP=88.28%  MacroR=88.00%  MacroF1=87.55%  MacroAUC=99.29%
+  Fold 5: Acc=79.71%  MacroP=82.04%  MacroR=77.05%  MacroF1=77.72%  MacroAUC=98.13%
+
+  每折均值: Acc=89.42%  MacroP=89.99%  MacroR=87.71%  MacroF1=88.08%  MacroAUC=99.20%
+  每折标准差: Acc=5.10%  MacroF1=5.54%
+  软投票集成: Acc=94.93%  MacroP=95.77%  MacroR=94.11%  MacroF1=94.76%  MacroAUC=99.85%
+
+--- 集成模型逐类别 F1 ---
+  类别 0: 0.7273
+  类别 1: 1.0000
+  类别 2: 0.9231
+  类别 3: 1.0000
+  类别 4: 1.0000
+  类别 5: 1.0000
+  类别 6: 1.0000
+  类别 7: 0.9583
+  类别 8: 0.9000
+  类别 9: 0.8333
+  类别 10: 0.9677
+  类别 11: 1.0000
+  类别 12: 1.0000
+  类别 13: 0.9565
+
+模型目录: /mnt/data1/spring/multimodal_project/otherModels/model_predictions/Improved_ResNet50

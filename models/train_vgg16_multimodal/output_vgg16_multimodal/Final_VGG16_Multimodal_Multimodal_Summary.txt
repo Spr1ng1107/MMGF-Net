@@ -1,0 +1,11 @@
+VGG16_Multimodal Multimodal 5-Fold CV Performance Report
+============================================================
+Training strategy: IDENTICAL to MobileNetV2 multimodal (MNV2_text.py)
+5-Fold Stratified CV | Single-phase joint training
+Gated multimodal fusion | Class-balanced weights
+------------------------------------------------------------
+Accuracy: 96.78% +/- 0.72%
+Macro Precision: 96.15% +/- 1.42%
+Macro Recall: 95.60% +/- 1.57%
+Macro F1: 95.62% +/- 1.46%
+Macro AUC: 99.83% +/- 0.16%

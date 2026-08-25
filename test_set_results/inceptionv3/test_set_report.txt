@@ -1,0 +1,31 @@
+=== InceptionV3 — 独立测试集（5折软投票集成） ===
+测试集规模: 138 张 | 类别数: 14
+
+--- 每折测试指标 ---
+  Fold 1: Acc=86.96%  MacroP=85.24%  MacroR=84.43%  MacroF1=84.01%  MacroAUC=99.55%
+  Fold 2: Acc=89.86%  MacroP=89.43%  MacroR=86.98%  MacroF1=87.39%  MacroAUC=99.49%
+  Fold 3: Acc=86.96%  MacroP=88.21%  MacroR=85.41%  MacroF1=85.14%  MacroAUC=99.35%
+  Fold 4: Acc=89.86%  MacroP=89.91%  MacroR=86.94%  MacroF1=87.13%  MacroAUC=99.05%
+  Fold 5: Acc=86.23%  MacroP=87.77%  MacroR=83.96%  MacroF1=84.47%  MacroAUC=99.31%
+
+  每折均值: Acc=87.97%  MacroP=88.11%  MacroR=85.55%  MacroF1=85.63%  MacroAUC=99.35%
+  每折标准差: Acc=1.56%  MacroF1=1.38%
+  软投票集成: Acc=91.30%  MacroP=92.37%  MacroR=89.45%  MacroF1=89.57%  MacroAUC=99.68%
+
+--- 集成模型逐类别 F1 ---
+  类别 0: 0.6667
+  类别 1: 0.8000
+  类别 2: 0.9333
+  类别 3: 0.8889
+  类别 4: 1.0000
+  类别 5: 0.9375
+  类别 6: 1.0000
+  类别 7: 0.9778
+  类别 8: 0.6667
+  类别 9: 0.8148
+  类别 10: 0.9375
+  类别 11: 1.0000
+  类别 12: 1.0000
+  类别 13: 0.9167
+
+模型目录: /mnt/data1/spring/multimodal_project/otherModels/train_inceptionv3/output_inceptionv3
